@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+#character{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    box-shadow: 0px 0px 100px aqua;
+}
+
+#char-eye-1{
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 80%;
+    top:0px;
+    left:0px;
+}
+
+#char-eye-2{
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background-color: black;
+    margin-top: 70%;
+    margin-left: 80%;
+    top:0px;
+    left:0px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 106);
+    border: solid 2px black;
+    position: relative;
+}
+
+
+.Eye-Left{
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background-color: black;
+    margin-top: 0px;
+    margin-left: 80%;
+    top:0px;
+    left:0px;
+}
+
+.Eye-Right{
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    background-color: black;
+    margin-top: 70%;
+    margin-left: 80%;
+    top:0px;
+    left:0px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(0, 255, 106);
+    border: solid 2px black;
+    position: relative;
+}

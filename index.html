@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <button id="enemy_maker" style="margin-left: 90%;">Create npc</button>
+    <input type="text" id="left" placeholder="left">
+    <input type="text" id="top" placeholder="top">
+    <input type="text" id="namebox" placeholder="name">
+    <link rel="stylesheet" href="style.css">
+    <div class="box" id="boxx"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    
+</head>
+<body>
+    <!-- This is the player you play as. you can add anything you like in here, just dont delete anything --> 
+    <div class="players" id="character">
+
+        <div id="char-eye-1"></div>
+        <div id="char-eye-2"></div>
+        <div id="collision-check-front" style="width: 10px; height: 50px; background: none; margin-left: 50px;position: absolute;"></div>
+        <div id="collision-check-back" style="width: 10px; height: 50px; background: none;  margin-left: -10px;position: absolute;"></div>
+        <div id="collision-check-left" style="width: 50px; height: 10px; background: none; margin-left: 0px; margin-top: -10px;position: absolute;"></div>
+        <div id="collision-check-right" style="width: 50px; height: 10px; background: none; margin-left: 0px; margin-top: 50px;position: absolute;"></div>
+        <p id="HPteller" style="text-align:justify; justify-content: center; font-size: x-small; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: green; box-shadow: 0px 0px 10px green; width: 80%;">Health: 100 Ammo: 30</p>
+        
+    </div>
+
+    
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
